@@ -2,7 +2,7 @@ Guess the number
 
 Overview---------------------------------------------------------------------------------------------------------
 
-The project is a simple game where the player attempts to guess a randomly generated number between  and 50. The game includes username validation, input error handling, scores and win rates.
+The project is a simple game where the player attempts to guess a randomly generated number between 1 and 50. The game includes username validation, input error handling, scores and win rates.
 The notebook also includes a flowchart created before writing the final code
 The goal is to guess the random number within 10 attempts and after each guess it provides feedback indicating whether the guess what too high or too low along with an accuracy percentage and an option to play again if user wants to.
 
@@ -28,7 +28,7 @@ How the game works--------------------------------------------------------------
 
 
 2. Main Game Loop
-   Once a valid username is entered, W welcome message is displayed and the score is set to 0, and play_game is set to "y"
+   Once a valid username is entered, A welcome message is displayed and the score is set to 0, and play_game is set to "y"
 
 
 3. Playing a Round
@@ -39,4 +39,7 @@ Feedback is given for each guess if its too high and low with accuracy percentag
 4. End of Game
 The user is asked whether they want to play again (y/n) and any invalid inputs trigger a error message and re-prompt
 When the user chooses not to continue the game ends with total games played, final score and win rate.
+
+GitHub repo----------------------------------------------------------------------------------------------------------------
+https://github.com/adck872/guessing_number_game
 
